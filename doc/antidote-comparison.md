@@ -1,6 +1,6 @@
 # Análise Comparativa — Antidote vs Gravity Claw Feature Stores
 
-> Comparação do repositório https://github.com/inematds/antidote com os 4 HTMLs do Gravity Claw,
+> Comparação do repositório https://github.com/linnoff88-dev/antidote com os 4 HTMLs do Gravity Claw,
 > do ponto de vista de estrutura, output gerado e portabilidade para diferentes ferramentas de IA.
 
 ---
@@ -186,4 +186,4 @@ O Antidote é um **catálogo do ecossistema**. O Gravity Claw é um **configurad
 
 ---
 
-*Gerado em 2026-02-22 — análise dos repositórios https://github.com/inematds/antidote e https://github.com/inematds/gravityclaw*
+*Gerado em 2026-02-22 — análise dos repositórios https://github.com/linnoff88-dev/antidote e https://github.com/linnoff88-dev/gravityclaw*

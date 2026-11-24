@@ -1,6 +1,6 @@
 # Análise Comparativa — Intelecto vs Antidote vs Gravity Claw
 
-> Comparação do repositório https://github.com/inematds/intelecto com os anteriores.
+> Comparação do repositório https://github.com/linnoff88-dev/intelecto com os anteriores.
 > Gerado em 2026-02-22.
 
 ---
