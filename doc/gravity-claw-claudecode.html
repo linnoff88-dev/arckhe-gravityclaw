@@ -315,7 +315,7 @@
       <div class="level-step">
         <div class="level-num">03</div>
         <h4>Voice</h4>
-        <p>Transcrição de notas de voz (Whisper via OpenAI SDK). TTS de respostas (ElevenLabs).</p>
+        <p>Transcriçêo de notas de voz (Whisper via OpenAI SDK). TTS de respostas (ElevenLabs).</p>
         <code class="level-cmd">openai sdk · elevenlabs api</code>
       </div>
       <div class="level-step">
@@ -379,31 +379,31 @@
     <div class="why-grid">
       <div class="why-card">
         <h4>🧑‍💻 Você Escreve, Você Entende</h4>
-        <p>Claude Code scaffolda o código, mas você revisa cada arquivo antes de aprovar. Não há código que você não leu — você pode debugar, customizar e estender sem medo.</p>
+        <p>Claude Code scaffolda o código, mas você revisa cada arquivo antes de aprovar. Nêo há código que você nêo leu — você pode debugar, customizar e estender sem medo.</p>
       </div>
       <div class="why-card">
-        <h4>🔒 MCP, Não Skills Aleatórias</h4>
+        <h4>🔒 MCP, Nêo Skills Aleatórias</h4>
         <p>OpenClaw usa community skill files — 341 encontrados maliciosos. Gravity Claw integra apenas via <span class="code-inline">mcp.json</span> — processos separados, auditáveis, sem código externo desconhecido.</p>
         <div class="why-stat">341 skills maliciosas no OpenClaw</div>
       </div>
       <div class="why-card">
-        <h4>🌐 Zero Exposição na Internet</h4>
+        <h4>🌐 Zero Exposiçêo na Internet</h4>
         <p>42.665 instâncias do OpenClaw encontradas expostas (93,4% com auth bypass). Gravity Claw usa Telegram long-polling — nunca abre uma porta, nunca fica exposto.</p>
         <div class="why-stat">42.665 instâncias expostas</div>
       </div>
       <div class="why-card">
         <h4>💰 $200 Flat com Claude Max</h4>
-        <p>OpenClaw: $500–$5K/mês por token. Gravity Claw roda sobre Claude Max ($200 fixo). Cada heartbeat check não custa nada extra.</p>
+        <p>OpenClaw: $500–$5K/mês por token. Gravity Claw roda sobre Claude Max ($200 fixo). Cada heartbeat check nêo custa nada extra.</p>
         <div class="why-good">Claude Max $200/mês fixo</div>
       </div>
       <div class="why-card">
         <h4>📦 TypeScript Strict, Sem Surpresas</h4>
-        <p>Modo strict ligado. <span class="code-inline">npx tsc --noEmit</span> antes de cada deploy. O compilador é o seu net de segurança — bugs de tipo não chegam em produção.</p>
+        <p>Modo strict ligado. <span class="code-inline">npx tsc --noEmit</span> antes de cada deploy. O compilador é o seu net de segurança — bugs de tipo nêo chegam em produçêo.</p>
         <div class="why-good">zero any implícito</div>
       </div>
       <div class="why-card">
         <h4>🖥️ Seus Dados Ficam Locais</h4>
-        <p>Código, memória, API keys e conversas ficam na sua máquina. O Railway roda o bot, mas não armazena seus dados — SQLite reseta, Supabase/Pinecone são suas contas.</p>
+        <p>Código, memória, API keys e conversas ficam na sua máquina. O Railway roda o bot, mas nêo armazena seus dados — SQLite reseta, Supabase/Pinecone sêo suas contas.</p>
       </div>
     </div>
   </section>
@@ -458,7 +458,7 @@ const CARDS = [
       { name:'System Prompt (soul.md)',        sub:'personalidade carregada no startup',     tag:'config',     impl:'soul.md'          },
       { name:'Tool Calling & Function Exec',   sub:'o agente chama ferramentas reais',       tag:'agent',      impl:'src/tools/'       },
       { name:'Error Recovery & Retry Logic',   sub:'recupera falhas e tenta de novo',        tag:'resilience', impl:'src/agent.ts'     },
-      { name:'Max Iteration Safety Limit',     sub:'teto de segurança — loop não trava',     tag:'safety',     impl:'src/agent.ts'     },
+      { name:'Max Iteration Safety Limit',     sub:'teto de segurança — loop nêo trava',     tag:'safety',     impl:'src/agent.ts'     },
     ]
   },
   {
@@ -498,13 +498,13 @@ const CARDS = [
   },
   {
     id:'voice', icon:'🎙️', name:'Voice & Audio', badge:'Voice', bc:'b-voice', cat:'voice',
-    desc:'Transcrição com Whisper (openai SDK) e síntese de fala com ElevenLabs. Notas de voz bidirecionais.',
+    desc:'Transcriçêo com Whisper (openai SDK) e síntese de fala com ElevenLabs. Notas de voz bidirecionais.',
     level: 3,
     features:[
       { name:'Whisper Transcription (openai)', sub:'STT via openai SDK oficial',        tag:'STT',     impl:'src/voice/stt.ts'  },
       { name:'ElevenLabs Text-to-Speech',      sub:'voz realista e humanizada',          tag:'TTS',     impl:'src/voice/tts.ts'  },
       { name:'Telegram Voice Note Handler',    sub:'recebe OGG, transcreve, responde',   tag:'channel', impl:'src/voice/tg.ts'   },
-      { name:'Voice Wake & Push-to-Talk',      sub:'ativação por voz tipo Siri',         tag:'trigger', impl:'src/voice/wake.ts' },
+      { name:'Voice Wake & Push-to-Talk',      sub:'ativaçêo por voz tipo Siri',         tag:'trigger', impl:'src/voice/wake.ts' },
       { name:'Talk Mode (bidirecional)',       sub:'conversa completa por voz',          tag:'duplex',  impl:'src/voice/mode.ts' },
       { name:'Multi-language Transcription',  sub:'multilíngue via Whisper',            tag:'i18n',    impl:'src/voice/stt.ts'  },
     ]
@@ -520,7 +520,7 @@ const CARDS = [
       { name:'GitHub MCP Integration',    sub:'PRs, issues, código',                tag:'code',    impl:'mcp.json'           },
       { name:'Supabase Database MCP',     sub:'queries no seu banco',               tag:'db',      impl:'mcp.json'           },
       { name:'Browser Control (CDP)',     sub:'abre páginas, clica, preenche',       tag:'browser', impl:'src/tools/browser.ts'},
-      { name:'Shell Commands',           sub:'executa com confirmação explícita',   tag:'shell',   impl:'src/tools/shell.ts' },
+      { name:'Shell Commands',           sub:'executa com confirmaçêo explícita',   tag:'shell',   impl:'src/tools/shell.ts' },
       { name:'File Operations',          sub:'lê, cria e organiza arquivos',         tag:'fs',      impl:'src/tools/files.ts' },
       { name:'Web Search',               sub:'Google em tempo real via API',        tag:'search',  impl:'src/tools/search.ts'},
       { name:'Webhook Triggers',         sub:'reage a eventos de outros apps',      tag:'event',   impl:'src/tools/webhook.ts'},
@@ -530,17 +530,17 @@ const CARDS = [
   },
   {
     id:'security', icon:'🛡️', name:'Security & Privacy', badge:'Security', bc:'b-sec', cat:'security',
-    desc:'Whitelist de Telegram IDs, sem portas abertas, secrets no .env. Não-negociável em nenhuma feature.',
+    desc:'Whitelist de Telegram IDs, sem portas abertas, secrets no .env. Nêo-negociável em nenhuma feature.',
     level: 1,
     features:[
-      { name:'Telegram ID Whitelist',    sub:'silenciosamente ignora IDs não-autorizados', tag:'auth',    impl:'src/bot.ts'       },
+      { name:'Telegram ID Whitelist',    sub:'silenciosamente ignora IDs nêo-autorizados', tag:'auth',    impl:'src/bot.ts'       },
       { name:'No Open Ports',           sub:'grammy long-polling — nenhuma porta exposta', tag:'network', impl:'src/bot.ts'       },
       { name:'.env Secrets Only',       sub:'NUNCA em código, logs ou arquivos de memória',tag:'policy',  impl:'.env'             },
       { name:'Docker Containerization', sub:'build isolado para Railway',                  tag:'sandbox', impl:'Dockerfile'       },
       { name:'AES-256-GCM Encryption',  sub:'vault para API keys sensíveis',              tag:'crypto',  impl:'src/crypto.ts'    },
       { name:'MCP Validation Checks',   sub:'auditoria dos servidores MCP em mcp.json',   tag:'audit',   impl:'mcp.json'         },
       { name:'Command Allowlists',      sub:'controle explícito de quais shells pode rodar',tag:'policy', impl:'src/tools/shell.ts'},
-      { name:'Dangerous Cmd Confirm',   sub:'confirmação via Telegram antes de executar', tag:'safety',  impl:'src/tools/shell.ts'},
+      { name:'Dangerous Cmd Confirm',   sub:'confirmaçêo via Telegram antes de executar', tag:'safety',  impl:'src/tools/shell.ts'},
     ]
   },
   {
@@ -586,12 +586,12 @@ const CARDS = [
   },
   {
     id:'why', icon:'🦀', name:'Why Gravity Claw?', badge:'Why', bc:'b-why', cat:'why',
-    desc:'Cada decisão técnica é uma resposta deliberada a uma falha real do OpenClaw.',
+    desc:'Cada decisêo técnica é uma resposta deliberada a uma falha real do OpenClaw.',
     level: 0,
     features:[
       { name:'Código 100% Compreendido',    sub:'você escreveu ou aprovou cada linha',      tag:'own'     },
       { name:'MCP vs Skills Maliciosas',    sub:'341 skills maliciosas no OpenClaw',        tag:'safe'    },
-      { name:'Zero Exposição na Internet',  sub:'42.665 instâncias OpenClaw expostas',      tag:'secure'  },
+      { name:'Zero Exposiçêo na Internet',  sub:'42.665 instâncias OpenClaw expostas',      tag:'secure'  },
       { name:'$200 Flat vs Metered',        sub:'$500–$5K/mês → Claude Max $200 fixo',     tag:'cost'    },
       { name:'TypeScript Strict Mode',      sub:'npx tsc --noEmit antes de cada deploy',   tag:'quality' },
       { name:'Dados 100% Locais',          sub:'nunca saem do seu computador/conta',        tag:'privacy' },
@@ -715,9 +715,9 @@ document.getElementById('genBtn').addEventListener('click', () => {
   p += `- **Whitelist de Telegram ID** — ignorar silenciosamente qualquer outro usuário\n`;
   p += `- **Sem web server / sem portas abertas** — Telegram long-polling apenas\n`;
   p += `- **Secrets no \`.env\` APENAS** — nunca em código, logs ou arquivos de memória\n`;
-  p += `- **Limite de iterações** no agent loop — loop não pode travar indefinidamente\n`;
-  p += `- **Shell commands perigosos** exigem confirmação explícita do usuário via Telegram\n`;
-  p += `- **MCP para integrações** — nenhum skill file externo não-auditado\n\n`;
+  p += `- **Limite de iterações** no agent loop — loop nêo pode travar indefinidamente\n`;
+  p += `- **Shell commands perigosos** exigem confirmaçêo explícita do usuário via Telegram\n`;
+  p += `- **MCP para integrações** — nenhum skill file externo nêo-auditado\n\n`;
   p += `## Dev Workflow\n\n`;
   p += `\`\`\`bash\n`;
   p += `railway down          # pausar Railway antes de testar localmente\n`;
@@ -746,7 +746,7 @@ document.getElementById('genBtn').addEventListener('click', () => {
   p += `✅ Heartbeat scheduled\n`;
   p += `\`\`\`\n\n`;
   p += `## Troubleshooting\n\n`;
-  p += `| Problema | Ação |\n|---|---|\n`;
+  p += `| Problema | Açêo |\n|---|---|\n`;
   p += `| Build falhou | \`railway logs --lines 100\` — erros npm/TypeScript |\n`;
   p += `| Bot crasha no startup | Verificar env vars: \`railway variables\` |\n`;
   p += `| Mensagens indo para lugar errado | Duas instâncias — \`railway down\` antes de \`npm run dev\` |\n`;
