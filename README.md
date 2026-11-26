@@ -8,7 +8,7 @@
 
 > Um agente de IA pessoal lean, seguro e totalmente compreendido ê¢â¬â construêÂ­do do zero em TypeScript.
 
-**[ê¢â â Acesse o hub de recursos](https://inematds.github.io/gravityclaw/)** &nbsp;êÂ·&nbsp; **[ê¢â â Feature Store (live)](https://gravity-claw.vercel.app/)**
+**[ê¢â â Acesse o hub de recursos](https://linnoff88-dev.github.io/arckhe-/)** &nbsp;êÂ·&nbsp; **[ê¢â â Feature Store (live)](https://gravity-claw.vercel.app/)**
 
 ---
 
@@ -87,7 +87,7 @@ NêÂ£o êÂ© um fork. êâ° uma reimplementaêÂ§êÂ£o delibe
 
 | Link | DescriêÂ§êÂ£o |
 |---|---|
-| [Framework Comparison](https://inematds.github.io/intelecto/doc/framework-comparison-pt.html) | ComparaêÂ§êÂ£o dos 9 frameworks do ecossistema OpenClaw |
+| [Framework Comparison](https://linnoff88-dev.github.io/arckhe-/doc/framework-comparison-pt.html) | ComparaêÂ§êÂ£o dos 9 frameworks do ecossistema OpenClaw |
 
 ---
 
